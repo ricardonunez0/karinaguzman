@@ -1,0 +1,805 @@
+/* screen - desktop */
+
+.desktop {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2546px;
+  width: 1280px;
+}
+
+.desktop .header {
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+  align-items: flex-end;
+  backdrop-filter: blur(40px) brightness(100%);
+  background-color: var(--white-2);
+  border: 1px none;
+  display: flex;
+  height: 116px;
+  left: 0;
+  min-width: 1280px;
+  padding: 11px 445px;
+  position: fixed;
+  top: 0;
+  z-index: 7;
+}
+
+.desktop .name {
+  letter-spacing: -4.20px;
+  min-height: 48px;
+  text-align: center;
+  width: 390px;
+}
+
+.desktop .aspiring-stylist-in-orange-county-ca {
+  letter-spacing: -0.52px;
+  margin-top: 116px;
+  min-height: 17px;
+  min-width: 226px;
+  text-align: center;
+  z-index: 6;
+}
+
+.desktop .my-work {
+  letter-spacing: -1.92px;
+  margin-top: 52px;
+  min-height: 43px;
+  min-width: 130px;
+  text-align: center;
+  z-index: 5;
+}
+
+.desktop .styling-section {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.0px;
+  margin-top: 1px;
+  min-height: 584px;
+  width: 744px;
+  z-index: 4;
+}
+
+.desktop .styling {
+  letter-spacing: -0.96px;
+  margin-right: 1.0px;
+  margin-top: -1px;
+  min-height: 31px;
+  min-width: 77px;
+}
+
+.desktop .styling-photos {
+  height: 331px;
+  margin-top: 25px;
+  width: 744px;
+}
+
+.desktop .scroll-for-more-pages {
+  letter-spacing: -0.48px;
+  line-height: 12px;
+  margin-right: 1.0px;
+  margin-top: 11px;
+  min-height: 12px;
+  min-width: 157px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.desktop .this-mock-loobook-wa {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-right: 1.0px;
+  margin-top: 24px;
+  min-height: 108px;
+  text-align: center;
+  width: 281px;
+}
+
+.desktop .download-full-pdf {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-right: 2.0px;
+  margin-top: 24px;
+  min-height: 18px;
+  min-width: 158px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.desktop .merchandising-and-flat-lay-section {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 128px;
+  min-height: 615px;
+  width: 744px;
+  z-index: 3;
+}
+
+.desktop .merchandising-flat-lay-styling {
+  letter-spacing: -0.96px;
+  margin-top: -1px;
+  min-height: 62px;
+  min-width: 186px;
+  text-align: center;
+}
+
+.desktop .alo-photos::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.desktop .alo-photos {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 331px;
+  margin-top: 25px;
+  min-width: 744px;
+  overflow-x: scroll;
+}
+
+.desktop .alo-photos-1::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.desktop .alo-photos-1 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 744px;
+}
+
+.desktop .alo-photos-item {
+  height: 331.29px;
+  min-width: 256px;
+  object-fit: cover;
+}
+
+.desktop .scroll-for-more-pages-1 {
+  letter-spacing: -0.48px;
+  line-height: 12px;
+  margin-left: 1.0px;
+  margin-top: 11px;
+  min-height: 12px;
+  min-width: 157px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.desktop .a-brief-collection-o {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-right: 13.0px;
+  margin-top: 24px;
+  min-height: 108px;
+  text-align: center;
+  width: 281px;
+}
+
+.desktop .download-full-pdf-1 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-top: 24px;
+  min-height: 18px;
+  min-width: 158px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.desktop .bio-section {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-left: 1.0px;
+  margin-top: 128px;
+  min-height: 476px;
+  width: 415px;
+  z-index: 2;
+}
+
+.desktop .bio {
+  letter-spacing: -1.92px;
+  margin-top: -1px;
+  min-height: 43px;
+  min-width: 49px;
+  text-align: center;
+}
+
+.desktop .i-grew-up-in-souther {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  min-height: 432px;
+  text-align: center;
+  width: 415px;
+}
+
+.desktop .footer-section {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 128px;
+  min-height: 178px;
+  width: 314px;
+  z-index: 1;
+}
+
+.desktop .thanks-for-stopping {
+  letter-spacing: -1.92px;
+  line-height: 35.2px;
+  margin-top: -1px;
+  min-height: 70px;
+  min-width: 314px;
+  text-align: center;
+}
+
+.desktop .email {
+  letter-spacing: -0.72px;
+  line-height: 19.8px;
+  margin-left: 1.0px;
+  min-height: 20px;
+  min-width: 47px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.desktop .linked-in {
+  letter-spacing: -0.72px;
+  line-height: 19.8px;
+  margin-left: 1.0px;
+  min-height: 20px;
+  min-width: 71px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+/* screen - full-project */
+
+.full-project {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2683px;
+  width: 390px;
+}
+
+.full-project .header-1 {
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+  align-items: flex-end;
+  backdrop-filter: blur(40px) brightness(100%);
+  background-color: var(--white-2);
+  border: 1px none;
+  display: flex;
+  height: 116px;
+  left: 0;
+  min-width: 390px;
+  padding: 11px 0;
+  position: fixed;
+  top: 0;
+  z-index: 7;
+}
+
+.full-project .name-1 {
+  letter-spacing: -4.20px;
+  min-height: 48px;
+  text-align: center;
+  width: 390px;
+}
+
+.full-project .aspiring-stylist-in-orange-county-ca-1 {
+  letter-spacing: -0.52px;
+  margin-top: 116px;
+  min-height: 17px;
+  min-width: 226px;
+  text-align: center;
+  z-index: 6;
+}
+
+.full-project .my-work-1 {
+  letter-spacing: -1.92px;
+  margin-top: 52px;
+  min-height: 43px;
+  min-width: 130px;
+  text-align: center;
+  z-index: 5;
+}
+
+.full-project .styling-section-1 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 584px;
+  width: 390px;
+  z-index: 4;
+}
+
+.full-project .styling-1 {
+  letter-spacing: -0.96px;
+  margin-left: 1.0px;
+  margin-top: -1px;
+  min-height: 31px;
+  min-width: 77px;
+}
+
+.full-project .styling-photos-1 {
+  height: 331px;
+  margin-top: 25px;
+  width: 390px;
+}
+
+.full-project .scroll-for-more-pages-2 {
+  letter-spacing: -0.48px;
+  line-height: 12px;
+  margin-left: 1.0px;
+  margin-top: 11px;
+  min-height: 12px;
+  min-width: 157px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.full-project .this-mock-loobook-wa-1 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-left: 1.0px;
+  margin-top: 24px;
+  min-height: 108px;
+  text-align: center;
+  width: 281px;
+}
+
+.full-project .download-full-pdf-2 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-top: 24px;
+  min-height: 18px;
+  min-width: 158px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.full-project .merchandising-and-flat-lay-section-1 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 128px;
+  min-height: 615px;
+  width: 390px;
+  z-index: 3;
+}
+
+.full-project .merchandising-flat-lay-styling-1 {
+  letter-spacing: -0.96px;
+  margin-top: -1px;
+  min-height: 62px;
+  min-width: 186px;
+  text-align: center;
+}
+
+.full-project .alo-photos-2::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.full-project .alo-photos-2 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 331px;
+  margin-top: 25px;
+  min-width: 390px;
+  overflow-x: scroll;
+}
+
+.full-project .alo-photos-3::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.full-project .alo-photos-3 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 390px;
+}
+
+.full-project .alo-photos-item-1 {
+  height: 331.29px;
+  min-width: 256px;
+  object-fit: cover;
+}
+
+.full-project .a-brief-collection-o-1 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-right: 13.0px;
+  margin-top: 24px;
+  min-height: 108px;
+  text-align: center;
+  width: 281px;
+}
+
+.full-project .bio-section-1 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.0px;
+  margin-top: 128px;
+  min-height: 619px;
+  width: 281px;
+  z-index: 2;
+}
+
+.full-project .bio-1 {
+  letter-spacing: -1.92px;
+  margin-top: -1px;
+  min-height: 43px;
+  min-width: 49px;
+  text-align: center;
+}
+
+.full-project .i-grew-up-in-souther-1 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  min-height: 558px;
+  text-align: center;
+  width: 281px;
+}
+
+.full-project .footer-section-1 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 128px;
+  min-height: 178px;
+  width: 314px;
+  z-index: 1;
+}
+
+.full-project .thanks-for-stopping-1 {
+  letter-spacing: -1.92px;
+  line-height: 35.2px;
+  margin-top: -1px;
+  min-height: 70px;
+  min-width: 314px;
+  text-align: center;
+}
+
+.full-project .email-1 {
+  letter-spacing: -0.72px;
+  line-height: 19.8px;
+  margin-left: 1.0px;
+  min-height: 20px;
+  min-width: 47px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.full-project .linked-in-1 {
+  letter-spacing: -0.72px;
+  line-height: 19.8px;
+  margin-left: 1.0px;
+  min-height: 20px;
+  min-width: 71px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+/* screen - tablet */
+
+.tablet {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2546px;
+  overflow: hidden;
+  width: 744px;
+}
+
+.tablet .header-2 {
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+  align-items: flex-end;
+  backdrop-filter: blur(40px) brightness(100%);
+  background-color: var(--white-2);
+  border: 1px none;
+  display: flex;
+  height: 116px;
+  left: 0;
+  min-width: 744px;
+  padding: 11px 177px;
+  position: fixed;
+  top: 0;
+  z-index: 7;
+}
+
+.tablet .name-2 {
+  letter-spacing: -4.20px;
+  min-height: 48px;
+  text-align: center;
+  width: 390px;
+}
+
+.tablet .aspiring-stylist-in-orange-county-ca-2 {
+  letter-spacing: -0.52px;
+  margin-top: 116px;
+  min-height: 17px;
+  min-width: 226px;
+  text-align: center;
+  z-index: 6;
+}
+
+.tablet .my-work-2 {
+  letter-spacing: -1.92px;
+  margin-top: 52px;
+  min-height: 43px;
+  min-width: 130px;
+  text-align: center;
+  z-index: 5;
+}
+
+.tablet .styling-section-2 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.0px;
+  margin-top: 1px;
+  min-height: 584px;
+  width: 744px;
+  z-index: 4;
+}
+
+.tablet .styling-2 {
+  letter-spacing: -0.96px;
+  margin-right: 1.0px;
+  margin-top: -1px;
+  min-height: 31px;
+  min-width: 77px;
+}
+
+.tablet .styling-photos-2 {
+  height: 331px;
+  margin-top: 25px;
+  width: 744px;
+}
+
+.tablet .scroll-for-more-pages-3 {
+  letter-spacing: -0.48px;
+  line-height: 12px;
+  margin-right: 1.0px;
+  margin-top: 11px;
+  min-height: 12px;
+  min-width: 157px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tablet .this-mock-loobook-wa-2 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-right: 1.0px;
+  margin-top: 24px;
+  min-height: 108px;
+  text-align: center;
+  width: 281px;
+}
+
+.tablet .download-full-pdf-3 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-right: 2.0px;
+  margin-top: 24px;
+  min-height: 18px;
+  min-width: 158px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.tablet .merchandising-and-flat-lay-section-2 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 128px;
+  min-height: 615px;
+  width: 744px;
+  z-index: 3;
+}
+
+.tablet .merchandising-flat-lay-styling-2 {
+  letter-spacing: -0.96px;
+  margin-top: -1px;
+  min-height: 62px;
+  min-width: 186px;
+  text-align: center;
+}
+
+.tablet .alo-photos-4::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.tablet .alo-photos-4 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 331px;
+  margin-top: 25px;
+  min-width: 744px;
+  overflow-x: scroll;
+}
+
+.tablet .alo-photos-5::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.tablet .alo-photos-5 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 744px;
+}
+
+.tablet .alo-photos-item-2 {
+  height: 331.29px;
+  min-width: 256px;
+  object-fit: cover;
+}
+
+.tablet .scroll-for-more-pages-4 {
+  letter-spacing: -0.48px;
+  line-height: 12px;
+  margin-left: 1.0px;
+  margin-top: 11px;
+  min-height: 12px;
+  min-width: 157px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tablet .a-brief-collection-o-2 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-right: 13.0px;
+  margin-top: 24px;
+  min-height: 108px;
+  text-align: center;
+  width: 281px;
+}
+
+.tablet .download-full-pdf-4 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  margin-top: 24px;
+  min-height: 18px;
+  min-width: 158px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.tablet .bio-section-2 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-left: 1.0px;
+  margin-top: 128px;
+  min-height: 476px;
+  width: 415px;
+  z-index: 2;
+}
+
+.tablet .bio-2 {
+  letter-spacing: -1.92px;
+  margin-top: -1px;
+  min-height: 43px;
+  min-width: 49px;
+  text-align: center;
+}
+
+.tablet .i-grew-up-in-souther-2 {
+  letter-spacing: -0.72px;
+  line-height: 18px;
+  min-height: 432px;
+  text-align: center;
+  width: 415px;
+}
+
+.tablet .footer-section-2 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 128px;
+  min-height: 178px;
+  width: 314px;
+  z-index: 1;
+}
+
+.tablet .thanks-for-stopping-2 {
+  letter-spacing: -1.92px;
+  line-height: 35.2px;
+  margin-top: -1px;
+  min-height: 70px;
+  min-width: 314px;
+  text-align: center;
+}
+
+.tablet .email-2 {
+  letter-spacing: -0.72px;
+  line-height: 19.8px;
+  margin-left: 1.0px;
+  min-height: 20px;
+  min-width: 47px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.tablet .linked-in-2 {
+  letter-spacing: -0.72px;
+  line-height: 19.8px;
+  margin-left: 1.0px;
+  min-height: 20px;
+  min-width: 71px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+@media screen and (max-width: 743px) {
+  .screen.desktop { 
+    display: none;
+   }
+  .screen.tablet { 
+    display: none;
+   }
+}
+@media screen and (min-width: 744px) and (max-width: 1279px) {
+  .screen.desktop { 
+    display: none;
+   }
+  .screen.full-project { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1280px) {
+  .screen.full-project { 
+    display: none;
+   }
+  .screen.tablet { 
+    display: none;
+   }
+}
