@@ -285,7 +285,7 @@
   border: 1px none;
   display: flex;
   height: 116px;
-  min-width: @media screen;
+  min-width: screen;
   padding: 11px 0;
   position: fixed;
   top: 0;
