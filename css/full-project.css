@@ -12,7 +12,7 @@
 
 .desktop .header {
   -webkit-backdrop-filter: blur(40px) brightness(100%);
-  align-items: flex-end;
+  align-items: center;
   backdrop-filter: blur(40px) brightness(100%);
   background-color: var(--white-2);
   border: 1px none;
@@ -280,7 +280,7 @@
 
 .full-project .header-1 {
   -webkit-backdrop-filter: blur(40px) brightness(100%);
-  align-items: flex-end;
+  align-items: center;
   backdrop-filter: blur(40px) brightness(100%);
   background-color: var(--white-2);
   border: 1px none;
@@ -525,7 +525,7 @@
 
 .tablet .header-2 {
   -webkit-backdrop-filter: blur(40px) brightness(100%);
-  align-items: flex-end;
+  align-items: center;
   backdrop-filter: blur(40px) brightness(100%);
   background-color: var(--white-2);
   border: 1px none;
